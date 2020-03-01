@@ -1,0 +1,7 @@
+flask
+pycrypto
+gnupg
+sysv_ipc
+tabulate
+gevent
+mysqldb

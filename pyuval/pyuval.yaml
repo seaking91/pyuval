@@ -1,0 +1,22 @@
+val:
+  db:
+    host: db.example.net
+    user: ykval
+    password: 'SECUREPASS_1'
+    db: ykval
+#    sslopts:
+#      ssl_ca: /etc/ssl/cert.pem
+ksm:
+  db:
+    host: 192.168.56.2
+    user: ykksm
+    password: 'SECUREPASS_2'
+    db: ykksm
+#    sslopts:
+#      ssl_ca: /etc/ssl/cert.pem
+  gpg:
+    home: /var/www/html/pyuval/.gnupg/
+    fingerprint: C59CD5BDC21F4E34710A6F0632ED3173C24747E5
+#    password: kFNFw4bPn5UfhTFvxQr7vc9OVTykRVQ5
+    shm:
+      address: 3735935610 # Address as integer 0xdeadda7a = 3735935610 dec

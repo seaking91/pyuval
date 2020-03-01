@@ -1,0 +1,13 @@
+COMMON: &common
+  SECRET_KEY: 'Py8p78Yop-uJjc)l@BJ_Q$KPfejK?(|*'
+  JSONIFY_PRETTYPRINT_REGULAR: True
+    
+DEVELOPMENT: &development
+  <<: *common
+  DEBUG: True
+  TEMPLATES_AUTO_RELOAD: True
+  
+PRODUCTION: &production
+  <<: *common
+  SECRET_KEY: '%vyzhTyTJiv!$!k-Qw2p@04vvlXLy"kr'
+  DEBUG: False
